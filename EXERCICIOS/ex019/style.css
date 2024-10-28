@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* TUDO EM HTML É id = EM css É # (só pode um elemento)
+   TUDO EM HTML É class EM css É . (ponto) (pode varios elementos)*/
+
+body {
+    background-color: rgb(145, 234, 145);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: green;    
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+
+h2 {
+    color: #3c805e;
+
+}
+.basico {
+    color: #0a8c03;
+}
+
+.intermediario {
+    color: #80823e;
+
+}
+.avancado {
+    color: #80160f;
+}
+
+p {
+    text-align: justify;
+    text-indent: 35px;
+}
+.destaque {
+    background-color: rgba(215, 215, 71, 0.504);
+}

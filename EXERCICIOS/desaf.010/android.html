@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 10 - Site do Android</title>
+     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">   
+    <style>
+         @font-face {
+            font-family: 'Idroid' ;
+            src: url('fontes/idroid.otf') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+         }   
+        body {
+            background-color: #84e1ad ;
+            margin: -22PX 0PX 0PX  0PX; 
+        }       
+
+        header {
+            background-image: linear-gradient(to top, #0d331e, #3BD37F);           
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 2em;
+            font-weight: normal;
+        }
+    
+        nav {
+            text-align: left;
+        }
+
+        nav > a {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: white;
+            padding: 0px 0px 0px 15px;
+            margin-right: 20px;        
+        }  
+
+        nav > a:hover {
+                text-decoration: underline;
+                text-align: left;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 0px 50px;
+            box-shadow: 4px 4px 7px rgba(50, 48, 48, 0.326);
+        }
+        
+        
+        h2 {
+            font-family: 'Idroid';  
+        }
+       
+        p {
+            color: black;
+            text-indent: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <p>Tudo aquilo que voce precisa sabes sobre o mundo Tech, em um único lugar.</p>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale Conosco</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia">
+            <h2>História do mascote do ANDROID</h2>
+            <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
+        </section>    
+        
+        <section id="versao">
+
+        </section>
+            <h2>A Primeira versão</h2>
+            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <mark>Dan Morrill</mark>. Ele conta que abriu o <mark>Inkscape</mark> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
+        </section>
+        <picture>            
+            <source media="(max-width: 950px)" srcset="imagens/dan-droids-pq.png" type="image/png">
+            <img src="imagens/dan-droids.png" alt="imagem flexivel">
+        </picture>
+
+        <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
+
+        <h2>Surge um novo Mascote</h2>
+        <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <strong>Irina Blok</strong>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
+
+        <picture>            
+            <source media="(max-width: 950px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
+            <img src="imagens/irina-blok.jpg" alt="imagem flexivel">
+        </picture>
+        <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o<strong> Bugdroid</strong>, o novo mascote do Android.</p> 
+        
+        <section id="Imagen">
+            <article>
+            <source media="(max-width: 950px)" srcset="imagens/bugdroid.png" type="image/png">
+            <img src="imagens/bugdroid.png" alt="imagem flexivel">
+            </article>
+        </section>
+        <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f0f0; margin: 0; }
+        .login-container { max-width: 400px; width: 100%; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .login-container h2 { margin-bottom: 20px; color: #333; }
+        .login-container input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
+        .login-container button { width: 100%; padding: 10px; background-color: #28a745; color: #fff; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        .login-container button:hover { background-color: #218838; }
+        .link-button { text-align: center; margin-top: 10px; }
+        .link-button a { background-color: #007bff; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        .link-button a:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <form action="processar_login.php" method="post">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="password" name="senha" placeholder="Senha" required>
+        <input type="tel" name="telefone" placeholder="Telefone" required>
+        <button type="submit">Entrar</button>
+    </form>
+    <div class="link-button">
+        <a href="http://www.seusitecadastro.com" target="_blank">Cadastre-se</a>
+    </div>
+</div>
+
+</body>
+</html>
+
+

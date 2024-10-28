@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <title>JM Imports</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loja JM Variedades</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Carrinho</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <div class="produto">
+                <h3>Produto 1</h3>
+                <p>Descrição do produto 1</p>
+                <button onclick="adicionarAoCarrinho('Produto 1')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <h3>Produto 2</h3>
+                <p>Descrição do produto 2</p>
+                <button onclick="adicionarAoCarrinho('Produto 2')">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+        <section id="carrinho">
+            <h2>Carrinho de Compras</h2>
+            <ul id="lista-carrinho"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
