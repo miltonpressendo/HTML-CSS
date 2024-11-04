@@ -64,6 +64,7 @@ header > p {
     padding-right: 10px;/*ESPAÇAMENTO DENTRO DO PARAGRAFO (DIREITA)*/
     padding-left: 10px;/*ESPAÇAMENTO DENTRO DO PARAGRAFO (ESQUERDA)*/
     margin: auto;/*DEFINE A MARGEM DENTRO CX CABEÇALHO*/
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.458);/*SOMBREAMENTO NO PARAGRAFO */
 }
 
